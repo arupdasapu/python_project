@@ -230,7 +230,7 @@ class Space():
         img.save(filename)
 
 
-# =========== Main Execution ===========
+# *******Main Execution******
 
 # Create a new Space with 10 rows, 20 columns, and 3 hospitals
 s = Space(height=10, width=20, num_hospitals=3)
