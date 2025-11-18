@@ -191,7 +191,7 @@ class Space():
         # Load images for house and hospital
         house = Image.open("/content/House.png").resize((cell_size, cell_size))
         hospital = Image.open("/content/Hospital.png").resize((cell_size, cell_size))
-        font = ImageFont.truetype("/content/OpenSans-Regular.ttf", 30)
+        font = ImageFont.truetype("/content/OpenSans-Regular.ttf", 30)      #  A .ttf file is a file format for storing fonts (writing styles).
         draw = ImageDraw.Draw(img)
 
         # Draw the grid
